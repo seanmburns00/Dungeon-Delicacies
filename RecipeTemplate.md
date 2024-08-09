@@ -20,7 +20,8 @@ Recipe description goes here.
     - b
 
 ## Image 
-
+<!--Replace image file name in the file path. -->
+<!--If no Image exists please delete this section. -->
 ![Image of {Replace with recipe title}.](/Images/placeholder.png)
 
 ## Credits
