@@ -1,4 +1,4 @@
-# {Recipe Title}
+# Recipe Title
 [Use this Guide to properly format recipes. **Delete this line when done**]
 
 ### About This Recipe
@@ -21,10 +21,11 @@ Recipe description goes here.
 
 ## Image 
 
-![Image of {Recipe Title}.](/Images/placeholder.png)
+![Image of {Replace with recipe title}.](/Images/placeholder.png)
 
 ## Credits
-author: {name}
+author - name
+date   - 01/28/2000
 
 ## Useful Formatting
 [**Delete this section when done.**]
