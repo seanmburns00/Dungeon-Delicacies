@@ -21,7 +21,7 @@ Here you will find a collection of my own personal recipes, written as technical
 
 ## Image 
 
-![Image of {Recipe Title}.](/../Images/placeholder.png)
+![Image of {Recipe Title}.](/Images/placeholder.png)
 
 
 ## Useful Formatting
