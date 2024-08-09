@@ -43,12 +43,12 @@ Here you will find a collection of my own personal recipes, written as technical
 > Advises about risks or negative outcomes of certain actions.
 
 - '**' Before and after text to Bold.
-    - Example
+    - **Example**
 - '*'  Before and after text to Italicize. 
-    - Example
+    - *Example*
 - '~~' Before and after text to strike. 
-    - Example
+    - ~~Example~~
 - '< + sub + >' Before and '< + / + sub + >' after to make a subscript.
-    - <sub>Example</sub>
+    - Subscript <sub>Example</sub>
 - '< + sup + >' Before and '< + / + sup + >' after to make a superscript.
-    - <sup>Example</sup>
+    - Superscript <sup>Example</sup>
