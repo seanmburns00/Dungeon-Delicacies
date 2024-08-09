@@ -25,6 +25,7 @@ Recipe description goes here.
 
 ## Credits
 author : name
+
 date   : 01/28/2000
 
 ## Useful Formatting
