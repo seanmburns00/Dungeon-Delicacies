@@ -3,7 +3,7 @@
 
 ### About This Recipe
 
-Here you will find a collection of my own personal recipes, written as technical guides. Enjoy the culinary adventure!
+Recipe description goes here. 
 
 ## Prerequisites
 
@@ -23,6 +23,8 @@ Here you will find a collection of my own personal recipes, written as technical
 
 ![Image of {Recipe Title}.](/Images/placeholder.png)
 
+## Credits
+author: {name}
 
 ## Useful Formatting
 [**Delete this section when done.**]
