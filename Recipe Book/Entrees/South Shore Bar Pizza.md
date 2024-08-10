@@ -1,7 +1,9 @@
 # South Shore Bar Pizza
 ### About This Recipe
 
-Recipe description goes here. 
+This style of pizza originates from the South Shore area of Massachusetts and is known for its thin and crispy crust creating a cracker-like texture. The pizza is usually only made as a small pie. 
+
+![Image of South Shore Bar Pizza.](/.resources/images/placeholder.png)
 
 ```
 Prep time: ~3 hours
@@ -48,11 +50,8 @@ _ calories
 
 6. Spread **⅓ cup sauce**. **Cheese** everywhere.
     - Add any other toppings you want.
-    
-7. **12 minutes** in a **500 degree** oven. **5 min** on a **cooling rack**.
 
-## Image 
-![Image of South Shore Bar Pizza.](/.resources/images/placeholder.png)
+7. **12 minutes** in a **500 degree** oven. **5 min** on a **cooling rack**.
 
 ## Credits
 ```
