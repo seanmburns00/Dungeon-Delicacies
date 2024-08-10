@@ -1,10 +1,11 @@
 name: Recipe to PDF
 on:
   push:
-    #branches:
-      #- main
+    branches:
+      - main
     paths:
       - 'Recipe Book/**/**.md'
+      - '.resources/RecipeTemplate.md'
 
 jobs:
   detect-changes:
