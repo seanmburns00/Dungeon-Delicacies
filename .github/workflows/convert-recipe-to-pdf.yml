@@ -6,6 +6,7 @@ on:
     paths:
       - 'Recipe Book/**/**.md'
       - '.resources/RecipeTemplate.md'
+  workflow_dispatch:
 
 jobs:
   detect-changes:
@@ -23,12 +24,16 @@ jobs:
       - name: Get last run timestamp
         id: get_last_run
         run: |
-          last_run=$(cat /github/workspace/.last_run_timestamp 2>/dev/null || echo "1970-01-01T00:00:00Z")
+          if [ -f /tmp/.last_run_timestamp ]; then
+            last_run=$(cat /tmp/.last_run_timestamp)
+          else
+            last_run="2024-01-01T00:00:00Z"
+          fi
           echo "LAST_RUN=$last_run" >> $GITHUB_ENV
 
       - name: Save current timestamp
         run: |
-          date -u +"%Y-%m-%dT%H:%M:%SZ" > /github/workspace/.last_run_timestamp
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > /tmp/.last_run_timestamp
 
       - name: Find modified Markdown files
         id: find_files
@@ -36,6 +41,12 @@ jobs:
           files=$(git diff --name-only --since="${LAST_RUN}" | grep '^Recipe Book/.*\.md$' || true)
           echo "Changed files: $files"
           echo "::set-output name=files::${files}"
+
+      - name: Upload last run timestamp as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: last-run-timestamp
+          path: /tmp/.last_run_timestamp
 
   build-pdf:
     needs: detect-changes
