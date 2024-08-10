@@ -37,12 +37,18 @@ _ calories
 ## Steps
 
 1. Add **flour, sugar, yeast** to food processor. Mix **30 seconds** add **warm water** while mixing. **Sit** for **10 minutes**.
+
 2. Add **olive oil** and **salt**, mix for **30-60 seconds**. **Kneed** for **1 minute**.
+
 3. Place in a **greased bowl** covered in **plastic wrap**. Sit for **2 ½ - 3 hours**.
+
 4. **Blend sauce** for **30 seconds** and **hand shred cheese**.
+
 5. Divide Dough and create **10” pies**. Add to **9” cake pan** brushed in **EV olive oil**. Add to pan with **¼” lip**. 
+
 6. Spread **⅓ cup sauce**. **Cheese** everywhere.
     - Add any other toppings you want.
+    
 7. **12 minutes** in a **500 degree** oven. **5 min** on a **cooling rack**.
 
 ## Image 
