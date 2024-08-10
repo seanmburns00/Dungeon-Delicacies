@@ -9,51 +9,71 @@ on:
   workflow_dispatch:
 
 jobs:
-  detect-changes:
-    runs-on: ubuntu-latest
-    outputs:
-      files: ${{ steps.set-output.outputs.files }}
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+#  detect-changes:
+#    runs-on: ubuntu-latest
+#    outputs:
+#      files: ${{ steps.set-output.outputs.files }}
+#    steps:
+#      - name: Checkout repository
+#        uses: actions/checkout@v3
+#
+#      - name: Set up Git
+#        run: |
+#          git fetch --prune --unshallow
+#
+#      - name: Get last run timestamp
+#        id: get_last_run
+#        run: |
+#          if [ -f /tmp/.last_run_timestamp ]; then
+#            last_run=$(cat /tmp/.last_run_timestamp)
+#          else
+#            last_run="2024-01-01T00:00:00Z"
+#          fi
+#          echo "LAST_RUN=$last_run" >> $GITHUB_ENV
+#
+#      - name: Save current timestamp
+#        run: |
+#          date -u +"%Y-%m-%dT%H:%M:%SZ" > /tmp/.last_run_timestamp
+#
+#      - name: Find modified Markdown files
+#        id: find_files
+#        run: |
+#          files=$(git diff --name-only --since="${LAST_RUN}" | grep -E '^Recipe Book/.*\.md$|^\.resources/RecipeTemplate\.md$' || true)
+#          echo "Changed files: $files"
+ #         echo "::set-output name=files::${files}"
+#
+#      - name: Upload last run timestamp as artifact
+#        uses: actions/upload-artifact@v3
+#        with:
+#          name: last-run-timestamp
+#          path: /tmp/.last_run_timestamp
 
-      - name: Set up Git
-        run: |
-          git fetch --prune --unshallow
-
-      - name: Get last run timestamp
-        id: get_last_run
-        run: |
-          if [ -f /tmp/.last_run_timestamp ]; then
-            last_run=$(cat /tmp/.last_run_timestamp)
-          else
-            last_run="2024-01-01T00:00:00Z"
-          fi
-          echo "LAST_RUN=$last_run" >> $GITHUB_ENV
-
-      - name: Save current timestamp
-        run: |
-          date -u +"%Y-%m-%dT%H:%M:%SZ" > /tmp/.last_run_timestamp
-
-      - name: Find modified Markdown files
-        id: find_files
-        run: |
-          files=$(git diff --name-only --since="${LAST_RUN}" | grep -E '^Recipe Book/.*\.md$|^\.resources/RecipeTemplate\.md$' || true)
-          echo "Changed files: $files"
-          echo "::set-output name=files::${files}"
-
-      - name: Upload last run timestamp as artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: last-run-timestamp
-          path: /tmp/.last_run_timestamp
+#  build-pdf:
+#    needs: detect-changes
+#    runs-on: ubuntu-latest
+#    strategy:
+#      matrix:
+#        file: ${{ fromJson(needs.detect-changes.outputs.files) }}
+#    steps:
+#      - name: Checkout repository
+#        uses: actions/checkout@v3
+#
+#      - name: Convert Markdown to PDF
+#        uses: baileyjm02/markdown-to-pdf@v1
+#        with:
+#          input_dir: ${{ matrix.file }}
+#          output_dir: Recipe Book/PDF Recipe Archives
+#          images_dir: .resources/images
+#          image_import: ./.resources/images
+#          build_html: false
+#      - uses: actions/upload-artifact@v3
+#        with:
+#          name: ${{ matrix.file }}
+#          path: Recipe Book/PDF Recipe Archive
 
   build-pdf:
-    needs: detect-changes
     runs-on: ubuntu-latest
     strategy:
-      matrix:
-        file: ${{ fromJson(needs.detect-changes.outputs.files) }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -61,12 +81,12 @@ jobs:
       - name: Convert Markdown to PDF
         uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_dir: ${{ matrix.file }}
+          input_dir: .resources
           output_dir: Recipe Book/PDF Recipe Archives
           images_dir: .resources/images
           image_import: ./.resources/images
           build_html: false
       - uses: actions/upload-artifact@v3
         with:
-          name: ${{ matrix.file }}
+          name: .resources
           path: Recipe Book/PDF Recipe Archive
