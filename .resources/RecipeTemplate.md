@@ -1,6 +1,5 @@
 # Recipe Title
-[Use this Guide to properly format recipes. **Delete this line when done**]
-
+<!--Use this Guide to properly format recipes. Delete this line when done-->
 ### About This Recipe
 
 Recipe description goes here. 
