@@ -38,7 +38,7 @@ jobs:
       - name: Find modified Markdown files
         id: find_files
         run: |
-          files=$(git diff --name-only --since="${LAST_RUN}" | grep '^Recipe Book/.*\.md$' || true)
+          files=$(git diff --name-only --since="${LAST_RUN}" | grep -E '^Recipe Book/.*\.md$|^\.resources/RecipeTemplate\.md$' || true)
           echo "Changed files: $files"
           echo "::set-output name=files::${files}"
 
