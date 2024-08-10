@@ -48,7 +48,7 @@ Sodium--------------1530 mg
 - **[12 Tbsp] Tomato paste**
 - **[28 oz] Diced Tomatoes**
 
-- **Not Required (Toppings)**
+**Not Required (Toppings)**
 - Sour Cream
 - Tortilla Chips
     - Suggestion: Blue corn
