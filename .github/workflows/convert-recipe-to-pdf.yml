@@ -1,0 +1,46 @@
+name: Recipe to PDF
+on:
+  push:
+    #branches:
+      #- main
+    paths:
+      - 'Recipe Book/**/**.md'
+
+jobs:
+  detect-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      files: ${{ steps.set-output.outputs.files }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get list of changed Markdown files
+        id: get-files
+        run: |
+          changed_files=$(git diff --name-only HEAD^ HEAD | grep '^Recipe Book/.*\.md$' || true)
+          echo "Changed files: $changed_files"
+          echo "::set-output name=files::${changed_files}"
+
+  build-pdf:
+    needs: detect-changes
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        file: ${{ fromJson(needs.detect-changes.outputs.files) }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Convert Markdown to PDF
+        uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_dir: ${{ matrix.file }}
+          output_dir: Recipe Book/PDF Recipe Archives
+          images_dir: .resources/images
+          image_import: ./.resources/images
+          build_html: false
+      - uses: actions/upload-artifact@v3
+        with:
+          name: ${{ matrix.file }}
+          path: Recipe Book/PDF Recipe Archive
