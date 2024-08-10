@@ -4,6 +4,16 @@
 
 Recipe description goes here. 
 
+```
+Prep time: [x] [hours/minutes/seconds]
+Cook time: [x] [hours/minutes/seconds]
+Makes [amount] Servings
+_ calories 
+```
+
+> [!TIP]
+> Helpful advice for the recipe. 
+
 ## Ingredients
 
 - **[amount] List**
