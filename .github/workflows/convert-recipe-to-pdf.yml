@@ -81,7 +81,7 @@ jobs:
         uses: baileyjm02/markdown-to-pdf@v1
         with:
           input_dir: .resources
-          output_dir: Recipe Book/PDF Recipe Archives
+          output_dir: Recipe Book/PDF Recipe Archive
           images_dir: .resources/images
           image_import: ./.resources/images
           build_html: false
