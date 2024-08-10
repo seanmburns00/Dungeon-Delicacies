@@ -30,7 +30,7 @@ date   : 01/28/2000
 ```
 
 ## Useful Formatting
-[**Delete this section when done.**]
+<!--Delete this section when done.-->
 
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
