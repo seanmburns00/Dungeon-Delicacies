@@ -20,6 +20,15 @@ Prefix: [SC]
 Example: [SC]Recipe Name.md
 ```
 
+### 'Alcoholic' Beverages
+
+For those of you who do not drink or are not legally allowed I have included a prefix tax to alcoholic drink files/recipes. This is also helpful for those only seeking these recipes. 
+
+```
+Prefix:  [A]
+Example: [A]Recipe Name.md
+```
+
 ### PDF Archive
 
 When a new recipe is submitted a pdf file will be generated from the md file. This provides a place to download an print the recipe in the same styling as it appears when viewing the markdown file in GitHub. 

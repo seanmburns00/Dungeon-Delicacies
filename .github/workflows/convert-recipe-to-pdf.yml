@@ -1,11 +1,11 @@
 name: Recipe to PDF
 on:
   push:
-    branches:
-      - main
-    paths:
-      - 'Recipe Book/**/**.md'
-      - '.resources/RecipeTemplate.md'
+    #branches:
+    #  - main
+    #paths:
+    #  - 'Recipe Book/**/**.md'
+    #  - '.resources/RecipeTemplate.md'
   workflow_dispatch:
 
 jobs:

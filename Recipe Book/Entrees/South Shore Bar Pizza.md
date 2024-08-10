@@ -12,6 +12,21 @@ Makes 2 pies
 _ calories 
 ```
 
+```
+**Nutritional Values**
+/per pie estimation
+
+Calories------------700 kcal
+Fat-----------------27 g
+Saturated Fat-------13 g
+Carbohydrate--------88 g
+Sugar---------------8 g
+Dietary Fiber-------2.5 g
+Protein-------------30 g
+Cholesterol---------70 mg
+Sodium--------------1530 mg
+```
+
 > [!TIP]
 > When adding water into processing dough, add drops at a time until dough forms into a ball. Too much and the dough will be too wet.  
 
