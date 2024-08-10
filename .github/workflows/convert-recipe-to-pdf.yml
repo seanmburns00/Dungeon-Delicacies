@@ -5,6 +5,7 @@ on:
       #- main
     paths:
       - 'Recipe Book/**/**.md'
+      - '.resources/RecipeTemplate.md'
 
 jobs:
   detect-changes:
