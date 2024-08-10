@@ -1,6 +1,6 @@
 # Loot and Lunch
 
-## About This Repository
+### About This Repository
 
 Here you will find a collection of my own personal recipes. Enjoy the culinary adventure!
 
@@ -11,7 +11,16 @@ Here you will find a collection of my own personal recipes. Enjoy the culinary a
 - **[Desserts](https://github.com/seanmburns00/Dungeon-Delicacies/tree/main/Recipe%20Book/Desserts)**
 - **[Beverages](https://github.com/seanmburns00/Dungeon-Delicacies/tree/main/Recipe%20Book/Beverages)**
 
-## PDF Archive
+### 'Slow Cooker' Recipes
+
+We all love using a slow cooker and giving no effort for a delicious meal. To easily find recipes that utilize a slow cooker there is a prefix to the name of the file/recipe. This also forces all slow cooker recipes to appear at the top of the list of recipes in any given category. 
+
+```
+Prefix: [SC]
+Example: [SC]Recipe Name.md
+```
+
+### PDF Archive
 
 When a new recipe is submitted a pdf file will be generated from the md file. This provides a place to download an print the recipe in the same styling as it appears when viewing the markdown file in GitHub. 
 
