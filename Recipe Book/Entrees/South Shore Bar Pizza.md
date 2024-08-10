@@ -3,7 +3,7 @@
 
 This style of pizza originates from the South Shore area of Massachusetts and is known for its thin and crispy crust creating a cracker-like texture. The pizza is usually only made as a small pie. 
 
-![Image of South Shore Bar Pizza.](/.resources/images/placeholder.png)
+![Image of South Shore Bar Pizza.](/.resources/images/south-shore-pizza.png)
 
 ```
 Prep time: ~3 hours
