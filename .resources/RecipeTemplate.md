@@ -5,7 +5,7 @@
 
 Recipe description goes here. 
 
-## Prerequisites
+## Ingredients
 
 - **[amount] List**
 - **[amount] Of**
@@ -22,7 +22,7 @@ Recipe description goes here.
 ## Image 
 <!--Replace image file name in the file path. -->
 <!--If no Image exists please delete this section. -->
-![Image of {Replace with recipe title}.](/Images/placeholder.png)
+![Image of {Replace with recipe title}.](/.resources/images/placeholder.png)
 
 ## Credits
 ```
