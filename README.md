@@ -29,6 +29,18 @@ Prefix:  [A]
 Example: [A]Recipe Name.md
 ```
 
+### Featured Grub
+
+**South Shore Bar Pizza**
+
+This style of pizza originates from the South Shore area of Massachusetts and is known for its thin and crispy crust creating a cracker-like texture. The pizza is usually only made as a small pie.
+
+Difficulty: Hard
+
+![Image of South Shore Bar Pizza.](/.resources/images/south-shore-pizza.png)
+
+### Featured Beverage
+
 ### PDF Archive
 
 When a new recipe is submitted a pdf file will be generated from the md file. This provides a place to download an print the recipe in the same styling as it appears when viewing the markdown file in GitHub. 

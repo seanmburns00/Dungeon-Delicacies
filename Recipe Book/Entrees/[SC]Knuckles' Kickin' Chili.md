@@ -38,12 +38,13 @@ Sodium--------------1530 mg
 - **[4] Scallions**
 - **[2 clove] Garlic**
 - **[½ cup] Chopped onions**
-    - about half an onion
+    - About half an onion
 - **[40 oz] Ground Beef**
 - **[2 Tbsp] Mexican Seasoning**
+    - Suggestion: Goya all purpose
 - **[2 Tbsp] Taco Seasoning**
-- **[2 cups] Beef stock**
-    - suggestion: Kettle & Fire Beef Broth
+- **[2 cups] Beef Broth**
+    - Suggestion: Kettle & Fire Beef Broth
 - **[~41.5 oz] Black beans**
 - **[~15 oz] Red kidney beans**
 - **[6 oz] Tomato paste**
@@ -67,7 +68,7 @@ Sodium--------------1530 mg
     - Place scallion greens in a small bowl and cover with plastic wrap; refrigerate until ready to serve
 
 2. **Cook beef**
-    - Set slow cooker (atleast 5 quarts) to the sauté/brown setting and add a large drizzle of oil
+    - Set slow cooker (atleast 5 quarts) to the sauté/brown setting (see tip below if setting isn't present) and add a large drizzle of oil
     - Once oil is hot, add beef, chopped onion, green pepper, garlic, scallion whites, Southwest Spice Blend, Mexican Spice Blend, and a big pinch of salt and pepper
     - Cook, breaking meat up into pieces, until browned and mostly cooked through, 3-5 minutes
     - Stir in tomato paste and cook, stirring, until slightly darkened, 1-2 minutes
