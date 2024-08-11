@@ -13,10 +13,10 @@ Here you will find a collection of my own personal recipes. Enjoy the culinary a
 
 ### 'Slow Cooker' Recipes
 
-We all love using a slow cooker and giving no effort for a delicious meal. To easily find recipes that utilize a slow cooker there is a prefix to the name of the file/recipe. This also forces all slow cooker recipes to appear at the top of the list of recipes in any given category. 
+We all love using a slow cooker and giving no effort for a delicious meal. To easily find recipes that utilize a slow cooker there is a prefix to the name of the file/recipe. This also forces all slow cooker recipes to appear together in the list of recipes in any given category. 
 
 ```
-Prefix: [SC]
+Prefix:  [SC]
 Example: [SC]Recipe Name.md
 ```
 

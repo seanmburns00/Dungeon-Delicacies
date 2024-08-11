@@ -8,8 +8,8 @@ This style of pizza originates from the South Shore area of Massachusetts and is
 ```
 Prep time: ~3 hours
 Cook time: 12 minutes
+Difficulty: Hard
 Makes 2 pies
-_ calories 
 ```
 
 ```

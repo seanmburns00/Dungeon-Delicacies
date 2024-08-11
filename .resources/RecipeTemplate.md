@@ -7,8 +7,23 @@ Recipe description goes here.
 ```
 Prep time: [x] [hours/minutes/seconds]
 Cook time: [x] [hours/minutes/seconds]
+Difficulty: [easy/medium/hard]
 Makes [amount] Servings
-_ calories 
+```
+
+```
+**Nutritional Values**
+/per serving estimation
+
+Calories------------x kcal
+Fat-----------------x g
+Saturated Fat-------x g
+Carbohydrate--------x g
+Sugar---------------x g
+Dietary Fiber-------x g
+Protein-------------x g
+Cholesterol---------x mg
+Sodium--------------x mg
 ```
 
 > [!TIP]

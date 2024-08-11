@@ -11,7 +11,6 @@ Prep time: 5 minutes
 Cook time: 4 hours 15 minutes
 Difficulty: Easy
 Makes 8 Servings
-_ calories 
 ```
 
 ```
@@ -39,13 +38,15 @@ Sodium--------------1530 mg
 - **[4] Scallions**
 - **[2 clove] Garlic**
 - **[½ cup] Chopped onions**
+    - about half an onion
 - **[40 oz] Ground Beef**
 - **[2 Tbsp] Mexican Seasoning**
 - **[2 Tbsp] Taco Seasoning**
 - **[2 cups] Beef stock**
+    - suggestion: Kettle & Fire Beef Broth
 - **[~41.5 oz] Black beans**
 - **[~15 oz] Red kidney beans**
-- **[12 Tbsp] Tomato paste**
+- **[6 oz] Tomato paste**
 - **[28 oz] Diced Tomatoes**
 
 **Not Required (Toppings)**
