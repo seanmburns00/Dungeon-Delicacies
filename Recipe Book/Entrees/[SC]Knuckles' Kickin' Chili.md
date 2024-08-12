@@ -1,5 +1,4 @@
 # Knuckles' Kickin' Chili
-<!--Use this Guide to properly format recipes. Delete this line when done-->
 ### About This Recipe
 
 Crafted with a blend of savory ground beef, hearty beans, and a special mix of spices, this chili is designed to deliver a quick burst of flavor and warmth. Whether you're gearing up for a marathon gaming session or just need a satisfying meal, this chili will keep you fueled and ready to dash through your day.
