@@ -9,7 +9,7 @@ Crafted with a blend of savory ground beef, hearty beans, and a special mix of s
 Prep time: 5 minutes
 Cook time: 4 hours 15 minutes
 Difficulty: Easy
-Makes 8 Servings
+Makes 8 servings
 ```
 
 ```
@@ -58,7 +58,7 @@ Sodium--------------1530 mg
 
 ## Steps
 
-1. **Prep produce**
+1. **Prep Produce**
     - Wash and dry
     - Halve, core, and dice green pepper into ½-inch pieces
     - Peel and mince or grate garlic
@@ -66,7 +66,7 @@ Sodium--------------1530 mg
     - Trim and thinly slice scallions, separating whites from greens
     - Place scallion greens in a small bowl and cover with plastic wrap; refrigerate until ready to serve
 
-2. **Cook beef**
+2. **Cook Beef**
     - Set slow cooker (atleast 5 quarts) to the sauté/brown setting (see tip below if setting isn't present) and add a large drizzle of oil
     - Once oil is hot, add beef, chopped onion, green pepper, garlic, scallion whites, Southwest Spice Blend, Mexican Spice Blend, and a big pinch of salt and pepper
     - Cook, breaking meat up into pieces, until browned and mostly cooked through, 3-5 minutes
@@ -74,7 +74,7 @@ Sodium--------------1530 mg
 > [!TIP]
 > No sauté setting on your slow cooker? No problem! Follow the same instructions using a large pan over medium-high heat, then transfer contents to slow cooker at the end of this step.
 
-3. **Slow cook**
+3. **Slow Cook**
     - If there’s excess grease in your slow cooker, carefully pour or spoon it out
     - Stir in stock, beans and their liquid, and diced tomatoes
     - Cover and increase heat to high; cook until tomatoes break down and flavors meld, 4-6 hours

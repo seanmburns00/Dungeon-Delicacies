@@ -6,8 +6,8 @@ Recipe description goes here.
 ```
 Prep time: [x] [hours/minutes/seconds]
 Cook time: [x] [hours/minutes/seconds]
-Difficulty: easy
-Makes 4 Servings
+Difficulty: Easy
+Makes 4 servings
 ```
 
 ```
@@ -63,7 +63,7 @@ Sodium--------------301 mg
     - Reserve 1/3 cup pasta cooking water
     - Drain pasta
 
-3. **Cook bell pepper**
+3. **Cook Bell Pepper**
     - Heat a drizzle of oil in a large pan over medium heat
     - Once oil is hot add bell pepper and scallion whites
     - Cook 5 minutes
@@ -71,7 +71,7 @@ Sodium--------------301 mg
         - Optional: to make spicy add a pinch of red pepper flakes
         - Optional: add italian chicken sausage mix
 
-3. **Make sauce**
+3. **Make Sauce**
     - Turn heat of pan with bell pepper to medium-low
     - Add crushed tomatoes
     - Cook 2 minutes
@@ -85,7 +85,7 @@ Sodium--------------301 mg
     - Add 2 Tbsp butter
     - Turn off heat when butter is melted
 
-4. **Mix and serve**
+4. **Mix and Serve**
     - Season sauce with pinch of salt and pepper
     - Add lemon juice
     - Add drained pasta to sauce and toss to coat

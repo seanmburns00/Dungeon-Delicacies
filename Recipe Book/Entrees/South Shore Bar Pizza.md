@@ -53,7 +53,7 @@ Sodium--------------1530 mg
 
 ## Steps
 
-1. **Make dough**
+1. **Make Dough**
     - Add **flour, sugar, yeast** to food processor 
     - Mix **30 seconds** add **warm water** while mixing
     - **Sit** for **10 minutes**
